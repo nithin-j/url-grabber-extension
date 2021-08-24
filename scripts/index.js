@@ -1,6 +1,6 @@
-let inputEl = document.querySelector('#input-el')
+const inputEl = document.querySelector('#input-el')
 const inputBtn = document.querySelector('#input-btn')
-let ulEl = document.querySelector('#ul-el')
+const ulEl = document.querySelector('#ul-el')
 
 // Will implement myLeads array to grab URL, and the website name later on.  
 //let myLeads = {
@@ -14,14 +14,23 @@ let myLeads = []
 
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
-    console.log(myLeads)
-    inputEl.value = ''
     ulEl.className = 'list-class'
+    
+    renderLeads()
 
-    ulEl.innerHTML = `<li>${myLeads.forEach(lead => {
-        lead
-    })}</li>`
-    // myLeads.forEach(lead => {
-    //     ulEl.innerHTML = `<li>${lead}</li>`
-    // });
+    //clear out input element
+    inputEl.value = ''
 })
+
+function renderLeads(){
+    // const liNode = document.createElement('li')
+    // const textNode = document.createTextNode(inputEl.value)
+    // liNode.appendChild(textNode)
+    // ulEl.appendChild(liNode)
+
+    let listItems = ''
+    myLeads.forEach(lead => {
+        listItems = `${listItems} <li><a target="_blank" href="${lead}">${lead}<a/></li>`
+    });
+    ulEl.innerHTML = listItems
+}

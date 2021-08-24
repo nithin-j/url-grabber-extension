@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 body {
   text-align: center;
@@ -31,20 +32,26 @@ li {
   border-bottom: solid 1px whitesmoke;
   background-color: rgb(195, 245, 241);
   list-style-type: none;
-  padding: 10px;
   font-family: 'Glory', sans-serif;
   font-size: 17px;
   font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
 .list-class {
   text-align: left;
   border: solid 2px rgb(6, 180, 180);
-  border-radius: 10px;
+  border-radius: 2px;
   text-align: left;
-  padding: 1px;
+  padding: 5px;
   margin: 10px 25px;
-  width: 25%;
-  border: solid 2px rgb(6, 180, 180);
+  width: 50%;
+}
+a {
+  font-family: 'Patrick Hand', cursive;
+  color: rgb(6, 180, 180);
+  width: 100%;
 }
 button:hover {
   color: rgb(6, 180, 180);
