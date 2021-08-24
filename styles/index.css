@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap');
+
+body {
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  background: #e1ebee;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  border-bottom: solid 2px green;
+  background-color: whitesmoke;
+}
+button {
+  width: 150px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: whitesmoke;
+  background-color: rgb(6, 180, 180);
+}
+.text-class {
+  text-align: left;
+  margin: 0px 25px;
+}
+li {
+  border-bottom: solid 1px whitesmoke;
+  background-color: rgb(195, 245, 241);
+  list-style-type: none;
+  padding: 10px;
+  font-family: 'Glory', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+.list-class {
+  text-align: left;
+  border: solid 2px rgb(6, 180, 180);
+  border-radius: 10px;
+  text-align: left;
+  padding: 1px;
+  margin: 10px 25px;
+  width: 25%;
+  border: solid 2px rgb(6, 180, 180);
+}
+button:hover {
+  color: rgb(6, 180, 180);
+  background-color: whitesmoke;
+  border: solid 1px rgb(6, 180, 180);
+}
+li:hover {
+  border-color: rgb(195, 245, 241);
+  background-color: whitesmoke;
+}
