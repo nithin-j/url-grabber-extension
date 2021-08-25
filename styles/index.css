@@ -6,11 +6,12 @@ body {
   margin: 0px;
   padding: 10px;
   background: #e1ebee;
+  min-width: 400px;
+  max-width: 400px;
 }
 input {
   width: 100%;
   padding: 10px;
-  margin-bottom: 10px;
   border: none;
   border-radius: 10px;
   border-bottom: solid 2px green;
@@ -32,26 +33,26 @@ li {
   border-bottom: solid 1px whitesmoke;
   background-color: rgb(195, 245, 241);
   list-style-type: none;
-  font-family: 'Glory', sans-serif;
   font-size: 17px;
   font-weight: bold;
-  padding: 10px;
-  width: 100%;
+  padding: 5px;
   box-sizing: border-box;
 }
 .list-class {
   text-align: left;
   border: solid 2px rgb(6, 180, 180);
   border-radius: 2px;
-  text-align: left;
-  padding: 5px;
-  margin: 10px 25px;
-  width: 50%;
+  padding: 10px;
 }
 a {
   font-family: 'Patrick Hand', cursive;
   color: rgb(6, 180, 180);
-  width: 100%;
+  word-wrap: break-word;
+}
+#alert-el {
+  color: red;
+  font-family: 'Glory', sans-serif;
+  font-size: 13px;
 }
 button:hover {
   color: rgb(6, 180, 180);
