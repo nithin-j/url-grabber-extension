@@ -17,13 +17,17 @@ input {
   border-bottom: solid 2px green;
   background-color: whitesmoke;
 }
-button {
-  width: 150px;
+.generic-btn {
+  border: solid 1px rgb(6, 180, 180);
+  width: 100px;
   padding: 10px 20px;
-  border: none;
   border-radius: 10px;
   color: whitesmoke;
   background-color: rgb(6, 180, 180);
+}
+.remove-btn {
+  background-color: rgb(151, 15, 15);
+  border: solid 1px rgb(151, 15, 15);
 }
 .text-class {
   text-align: left;
@@ -44,6 +48,9 @@ li {
   border-radius: 2px;
   padding: 10px;
 }
+.null-list-class {
+  border: none;
+}
 a {
   font-family: 'Patrick Hand', cursive;
   color: rgb(6, 180, 180);
@@ -54,10 +61,14 @@ a {
   font-family: 'Glory', sans-serif;
   font-size: 13px;
 }
-button:hover {
+.generic-btn:hover {
   color: rgb(6, 180, 180);
   background-color: whitesmoke;
   border: solid 1px rgb(6, 180, 180);
+}
+.remove-btn:hover {
+  color: rgb(151, 15, 15);
+  border: solid 1px rgb(151, 15, 15);
 }
 li:hover {
   border-color: rgb(195, 245, 241);
